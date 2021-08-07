@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            }
+            
+            .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px;
+            display: flex;
+            }
+            .left-column {
+            width: 35%;
+            position: relative;
+            }
+            
+            .right-column {
+            width: 65%;
+            margin-top: 60px;
+            }
+            .product-description {
+            border-bottom: 1px solid #E1E8EE;
+            margin-bottom: 20px;
+            }
+            .product-description span {
+            font-size: 12px;
+            color: #358ED7;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-decoration: none;
+            }
+            .product-description h1 {
+            font-weight: 300;
+            font-size: 52px;
+            color: #43484D;
+            letter-spacing: -2px;
+            }
+            .product-description p {
+            font-size: 16px;
+            font-weight: 300;
+            color: #86939E;
+            line-height: 24px;
+            }
+            .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            }
+        </style>
+    </head>
+    <body class="container">
+        <div class="left-column">
+            <img src="https://cdn.pixabay.com/photo/2016/11/23/06/57/isolated-t-shirt-1852114_1280.png" alt="Long sleeve tshirt" width="400" height="700">
+        </div>
+        <div class="right-column">
+            <div class="product-description">
+                <h1>Green Cotton Tshirt</h1>
+                <span>Shirts</span><br><br>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half" ></i>
+                <p>Rs.400 <s>Rs.600</s> <span color="Green">50% off</span> </p>
+                <p>Accented by the tipping along the collar and sleeve hems, this classic T-shirt makes for an endlessly preppy and versatile casual wear option.</p>
+                <table>
+                    <tr width="50" height="30" style="text-align: left;">
+                        <th><b>Color</b></th>
+                        <td style="padding-left:40px;">Green</td>
+                    </tr>
+                    <tr width="50" height="30">
+                        <th><b>Availability</b></th>
+                        <td style="padding-left:40px;">3 in stock</td>
+                    </tr>
+                    <tr width="50" height="30">
+                        <th><b>Select size:</b></th>
+                        <td style="padding-left:30px;"><form>
+                              <input type="radio" id="html" name="fav_language" value="HTML">
+                              <label for="html">Small</label>
+                              <input type="radio" id="css" name="fav_language" value="CSS">
+                              <label for="css">Medium</label>
+                              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                              <label for="javascript">Large</label>
+                            </form> 
+                        </td>
+                    </tr>
+                    <tr width="50" height="30" style="text-align: left;">
+                        <th><b>Quantity</b></th>
+                        <td style="padding-left:40px;">
+                            <label for="quantity"></label>
+                            <input type="number" id="quantity" name="quantity">
+                        </td>
+                    </tr>
+                </table>
+                <br><br>
+                <input type="button" class="button" value="Buy Now">
+                <input type="button" class="button" value="Add to cart">
+            </div>
+        </div>
+    </body>
+</html>
