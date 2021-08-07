@@ -5,10 +5,16 @@
         table, th, td {
           border: 1px solid black;
         }
+
+        .hobbie{
+            padding:20px 50px;
+        }
         </style>
+
     </head>
     <body>
-        <h1>Employee information</h1>
+        <body>
+        <h1 style="font-size: 26px;">Employee information</h1>
         <table>
             <tr>
                 <th>Employee</th>
@@ -46,5 +52,46 @@
                 <td>Italy</td>
             </tr>
         </table>
+        <hr>
+        <h1 style="font-size: 26px;">Student scores</h1>
+        <table>
+            <tr>
+                <th>Student</th>
+                <th>Subject scores</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Alfreds Sampson</td>
+                <td>Algebra</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Geometry</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total of all subjects</td>
+                <td>40</td>
+            </tr>
+        </table>
+        <hr>
+        <h1 style="font-size: 26px;">Hobbies</h1>
+        <table >
+            <tr>
+                <td class="hobbie">Indoor</td>
+                <td class="hobbie">Chess</td>
+            </tr>
+            <tr>
+                <td class="hobbie">Outdoor</td>
+                <td class="hobbie" >Cricket</td>
+            </tr>
+        </table>
+
+
+
     </body>
 </html>
